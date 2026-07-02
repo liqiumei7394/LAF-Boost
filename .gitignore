@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Generated experiment outputs
+outputs/
+
+# Large or externally licensed datasets
+data/
+
+# Local/private validation data and manuscript binaries
+照片/
+*.doc
+*.docx
+*.pdf
+*.xlsx
+
+# Publisher templates and archives
+ACCESS_latex_template_20260513/
+ACCESS_latex_template_20260513.zip
+*.zip
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
